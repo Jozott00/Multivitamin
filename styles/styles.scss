@@ -1,0 +1,68 @@
+
+
+// PRESETS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+// NUMBERFIELD
+#numberfield {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, .9);
+  margin-top: 50vh;
+  margin-left: 50vw;
+  
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  &:not(.active) {
+    display: none;
+  }
+
+  // NUMBER
+  span.number {
+    width: 50%;
+    padding: 0 2px;
+    font-size: 50px;
+
+    display: flex;
+
+    &:nth-of-type(1) {
+      justify-content: flex-end;
+    }
+    &:nth-of-type(2) {
+      justify-content: flex-start;
+    }
+  }
+}
+
+// VIDEO
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

@@ -1,0 +1,34 @@
+{
+  10: {
+    "timestamp": 0,
+    "duration": 5
+  },
+  11: {
+    "timestamp": 6,
+    "duration": 5
+  },
+  12: {
+    "timestamp": 53,
+    "duration": 5
+  },
+  13: {
+    "timestamp": 140,
+    "duration": 5
+  },
+  14: {
+    "timestamp": 300,
+    "duration": 5
+  },
+  15: {
+    "timestamp": 800,
+    "duration": 5
+  },
+  16: {
+    "timestamp": 1500,
+    "duration": 5
+  },
+  17: {
+    "timestamp": 2000,
+    "duration": 10
+  },
+}
